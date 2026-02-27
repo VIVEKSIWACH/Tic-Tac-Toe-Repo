@@ -1,0 +1,57 @@
+body{
+    background-color: pink;
+}
+
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration:underline;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; 
+  grid-auto-rows: 100px;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 15px;
+  width: 500px;
+  position: relative;
+  left: 400px;
+  top: 40px;
+}
+
+.btn {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+  border-radius: 15px;
+  border: none;
+  font-size: xx-large;
+  color: red;
+}
+
+.reset{
+  position:relative;
+  left: 620px;
+  top: 80px;
+  width: 100px;
+  height: 40px;
+  font-size: x-large;
+  border: none;
+  border-radius: 15px;
+  color: #f1f1f1;
+  background-color: red;
+}
+
+.hide{
+  visibility: hidden;
+}
+
+.winner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+}
